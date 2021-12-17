@@ -15,7 +15,7 @@ public class Base {
 
     protected WebDriver driver;
 
-    //Se ejecuta antes de cada método de prueba
+   //to be executed before every method
     @BeforeMethod
     public void beforeMethod() {
 
@@ -32,7 +32,6 @@ public class Base {
         //navigate to the site
         driver.navigate().to("https://advantageonlineshopping.com/");
         //maximize the window
-
         driver.manage().window().maximize();
 
         //general wait

@@ -1,4 +1,6 @@
 package tests;
 
-public class Products {
+import org.example.pages.Base;
+
+public class Products extends Base {
 }
